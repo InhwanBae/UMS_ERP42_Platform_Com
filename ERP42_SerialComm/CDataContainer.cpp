@@ -8,8 +8,10 @@ bool CDataContainer::instanceFlag = false;
 CDataContainer* CDataContainer::instance = NULL;
 
 // Return singleton instances
-CDataContainer* CDataContainer::getInstance() {
-	if (!instance) {
+CDataContainer* CDataContainer::getInstance()
+{
+	if (!instance)
+	{
 		instance = new CDataContainer();
 		instanceFlag = true;
 	}

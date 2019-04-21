@@ -13,7 +13,7 @@ private:
 	int f_mode = 1;
 	int f_Estop = 0;
 	int f_gear = 0;
-	int f_speed = 20;
+	int f_speed = 0;
 	int f_steer = 0;  // Steer value reversed to the Datasheet
 	int f_brake = 0;
 	void setWritePram(BYTE* writeBuffer);
