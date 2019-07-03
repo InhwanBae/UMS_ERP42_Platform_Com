@@ -36,8 +36,10 @@ example: GEAR 1 SPEED 100
 There are 6 platform control commands, 1 exit control. With platform's mannual, you can set individual values with commands.
 ```
 GEAR 0 SPEED 200 BREAK 0 BREAK 0
+SPEED 100
 SPEED 50 STEER 200 
-GEAR 1 SPEED 0 STEER 0 BREAK 10
+SPEED 100 STEER 100 
+E-STOP 0 GEAR 1 SPEED 0 STEER 0 BREAK 10
 ```
 
 If you make any typos, it will show the emergency-stop message, send platform `E-STOP 1`. You have to type `E-STOP 0` to exit from emergency-stop mode and control platform. You can use this method at any emergency situations
