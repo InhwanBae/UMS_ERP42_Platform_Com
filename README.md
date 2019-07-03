@@ -36,7 +36,7 @@ example: GEAR 1 SPEED 100
 There are 6 platform control commands, 1 exit control. With platform's mannual, you can set individual values with commands.
 ```
 GEAR 0 SPEED 200 BREAK 0 BREAK 0
-GEAR 0 SPEED 50 STEER 200 
+SPEED 50 STEER 200 
 GEAR 1 SPEED 0 STEER 0 BREAK 10
 ```
 
